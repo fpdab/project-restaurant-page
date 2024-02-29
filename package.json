@@ -1,0 +1,25 @@
+{
+  "name": "project-restaurant-page",
+  "version": "1.0.0",
+  "description": "for odin project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fpdab/project-restaurant-page.git"
+  },
+  "author": "Filip Dabek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fpdab/project-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/fpdab/project-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  }
+}
